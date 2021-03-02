@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+import Login from "./Login";
+
+class App extends Component {
+  redner() {
+    return (
+      <div className="App">
+        <Login />
+      </div>
+    );
+  }
+}
 
 function App() {
   return (
